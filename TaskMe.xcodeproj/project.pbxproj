@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21883AFE19F9416700B53D90 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21883AFD19F9416700B53D90 /* AddTaskViewController.swift */; };
+		21883B0019F945A500B53D90 /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21883AFF19F945A500B53D90 /* DismissSegue.swift */; };
+		21883B0219F94AE200B53D90 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21883B0119F94AE200B53D90 /* Task.swift */; };
+		21883B0419F94B3E00B53D90 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21883B0319F94B3E00B53D90 /* TaskStore.swift */; };
 		218E935619F7EF8100E5A1CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E935519F7EF8100E5A1CD /* AppDelegate.swift */; };
 		218E935819F7EF8100E5A1CD /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E935719F7EF8100E5A1CD /* MasterViewController.swift */; };
 		218E935A19F7EF8100E5A1CD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E935919F7EF8100E5A1CD /* DetailViewController.swift */; };
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21883AFD19F9416700B53D90 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddTaskViewController.swift; path = ../AddTaskViewController.swift; sourceTree = "<group>"; };
+		21883AFF19F945A500B53D90 /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
+		21883B0119F94AE200B53D90 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		21883B0319F94B3E00B53D90 /* TaskStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 		218E935019F7EF8100E5A1CD /* TaskMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		218E935419F7EF8100E5A1CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		218E935519F7EF8100E5A1CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,10 +87,14 @@
 		218E935219F7EF8100E5A1CD /* TaskMe */ = {
 			isa = PBXGroup;
 			children = (
+				21883AFD19F9416700B53D90 /* AddTaskViewController.swift */,
 				218E935519F7EF8100E5A1CD /* AppDelegate.swift */,
 				218E935719F7EF8100E5A1CD /* MasterViewController.swift */,
 				218E935919F7EF8100E5A1CD /* DetailViewController.swift */,
 				218E935B19F7EF8100E5A1CD /* Main.storyboard */,
+				21883B0119F94AE200B53D90 /* Task.swift */,
+				21883B0319F94B3E00B53D90 /* TaskStore.swift */,
+				21883AFF19F945A500B53D90 /* DismissSegue.swift */,
 				218E935E19F7EF8100E5A1CD /* Images.xcassets */,
 				218E936019F7EF8100E5A1CD /* LaunchScreen.xib */,
 				218E935319F7EF8100E5A1CD /* Supporting Files */,
@@ -216,8 +228,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				218E935A19F7EF8100E5A1CD /* DetailViewController.swift in Sources */,
+				21883B0019F945A500B53D90 /* DismissSegue.swift in Sources */,
+				21883AFE19F9416700B53D90 /* AddTaskViewController.swift in Sources */,
 				218E935819F7EF8100E5A1CD /* MasterViewController.swift in Sources */,
+				21883B0219F94AE200B53D90 /* Task.swift in Sources */,
 				218E935619F7EF8100E5A1CD /* AppDelegate.swift in Sources */,
+				21883B0419F94B3E00B53D90 /* TaskStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +425,7 @@
 				218E937319F7EF8100E5A1CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		218E937419F7EF8100E5A1CD /* Build configuration list for PBXNativeTarget "TaskMeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				218E937619F7EF8100E5A1CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
